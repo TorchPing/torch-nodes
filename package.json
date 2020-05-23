@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "node index.js"
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0"
+  }
+}
