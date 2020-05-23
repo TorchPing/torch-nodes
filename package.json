@@ -3,6 +3,7 @@
     "build": "node index.js"
   },
   "dependencies": {
+    "got": "^11.1.4",
     "js-yaml": "^3.14.0"
   }
 }
