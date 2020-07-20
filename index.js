@@ -17,7 +17,7 @@ try {
 }
 
 // Test server's connectivity
-const responses = doc.map((e) => {
+const responses = Object.values(doc).map((e) => {
   return got(e.address).then((res) => {
     return {
       address: e.address,
